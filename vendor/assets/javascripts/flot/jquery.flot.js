@@ -238,7 +238,7 @@ Licensed under the MIT license.
 						left: 0,
 						bottom: 0,
 						right: 0,
-						'font-size': "smaller",
+						'font-size': "x-small",
 						color: "#545454"
 					})
 					.insertAfter(this.element);

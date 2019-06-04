@@ -81,9 +81,7 @@
               <span class="facet-label">
                 <%= link_to BlacklightRangeLimit.labels[:missing], add_range_missing(solr_field) %>
               </span>
-              <span class="facet-count">
-                <%= number_with_delimiter(stats["missing"]) %>
-              </span>
+              <span class="facet-count"><%= number_with_delimiter(stats["missing"]) %></span>
             </li>
           </ul>
         <% end %>
